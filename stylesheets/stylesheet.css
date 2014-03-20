@@ -48,11 +48,11 @@ table {
 Theme Styles
 *******************************************************************************/
 
-body {background-image:url("http://1.bp.blogspot.com/_2luNjLYV1zo/THqtUYg3IfI/AAAAAAAAAYw/oZB6_FsCVoM/s1600/Purple+Palette.jpg");
+body {
 
   box-sizing: border-box;
  color:#373737;
-  
+  background: #66CCFF
  font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
