@@ -48,11 +48,11 @@ table {
 Theme Styles
 *******************************************************************************/
 
-body {background-color:#66CCFF;
+body {
 
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
+  background: #66CCFF;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
