@@ -134,6 +134,7 @@ HTMLActuator.prototype.updateScore = function (score) {
     if (difference > 4) {
      this.adSpace.innerHTML = ads[Math.floor(Math.random() * ads.length)]
   }
+  }
 };
 
 HTMLActuator.prototype.updateBestScore = function (bestScore) {
