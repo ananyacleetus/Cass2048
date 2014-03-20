@@ -5,7 +5,11 @@ html, body {
   background: #faf8ef;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  
+  -webkit-animation: background-gradient-change linear 6s infinite alternate;
+  -moz-animation: background-gradient-change linear 6s infinite alternate;
+  -moz-animation: background-gradient-change linear 6s infinite alternate;}
 
 body {
   margin: 80px 0; }
