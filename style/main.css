@@ -5,11 +5,10 @@ html, body {
   background: #faf8ef;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px;
-  
-  -webkit-animation: background-gradient-change linear 6s infinite alternate;
+  font-size: 18px; 
+ -webkit-animation: background-gradient-change linear 6s infinite alternate;
   -moz-animation: background-gradient-change linear 6s infinite alternate;
-  -moz-animation: background-gradient-change linear 6s infinite alternate;}
+  -moz-animation: background-gradient-change linear 6s infinite alternate; }
 
 body {
   margin: 80px 0; }
@@ -699,3 +698,101 @@ hr {
     margin-top: 90px !important; }
   .game-message .lower {
     margin-top: 30px !important; } }
+@-webkit-keyframes move-up {
+  0% {
+    top: 25px;
+    opacity: 1; }
+
+  100% {
+    top: -50px;
+    opacity: 0; } }
+
+@-moz-keyframes move-up {
+  0% {
+    top: 25px;
+    opacity: 1; }
+
+  100% {
+    top: -50px;
+    opacity: 0; } }
+
+@keyframes move-up {
+  0% {
+    top: 25px;
+    opacity: 1; }
+
+  100% {
+    top: -50px;
+    opacity: 0; } }
+    
+  @-webkit-keyframes fade-in-out {
+    0% {
+      opacity: 0; }
+      
+    50% {
+      opacity: 1; }
+
+    100% {
+      opacity: 0; } }
+
+  @-moz-keyframes fade-in-out {
+    0% {
+      opacity: 0; }
+      
+    50% {
+      opacity: 1; }
+
+    100% {
+      opacity: 0; } }
+
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0; }
+      
+    50% {
+      opacity: 1; }
+
+    100% {
+      opacity: 0; } }
+      
+  @-webkit-keyframes hover-change {
+      0%   {color: cyan;}
+      25%  {color: magenta;}
+      50%  {color: yellow;}
+      100% {color: white;} }
+
+  @-moz-keyframes hover-change {
+      0%   {color: cyan;}
+      25%  {color: magenta;}
+      50%  {color: yellow;}
+      100% {color: white;} }
+      
+  @keyframes hover-change {
+      0%   {color: cyan;}
+      25%  {color: magenta;}
+      50%  {color: yellow;}
+      100% {color: white;} }
+      
+  @-webkit-keyframes background-gradient-change {
+      0%   {background: #cff;}
+      33%  {background: #fcf;}
+      66%  {background: #ffc;}
+      100%   {background: #cff;}}
+
+  @-moz-keyframes background-gradient-change {
+      0%   {background: #dff;}
+      33%  {background: #fdf;}
+      66%  {background: #ffd;}
+      100%   {background: #dff;}}
+      
+  @keyframes background-gradient-change {
+      0%   {background: #dff;}
+      33%  {background: #fdf;}
+      66%  {background: #ffd;}
+      100%   {background: #dff;}}      
+      
+  a:hover {
+         -webkit-animation: hover-change linear 0.1s infinite;
+         -moz-animation: hover-change linear 0.1s infinite;
+         animation: hover-change linear 0.1s infinite;
+       } 
