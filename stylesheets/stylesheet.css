@@ -47,7 +47,13 @@ table {
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
-
+html, body{
+  background: #fff;
+  color: #000;
+  -webkit-animation: background-gradient-change linear 6s infinite alternate;
+  -moz-animation: background-gradient-change linear 6s infinite alternate;
+  -moz-animation: background-gradient-change linear 6s infinite alternate;
+}
 body {
 
   box-sizing: border-box;
